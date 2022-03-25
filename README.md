@@ -19,3 +19,6 @@ How to run the extent reports?
 
 Step 1: go to test-output folder
 Step 2: select Extent.html and it will show the extent reports with all the features.
+
+
+I do have pushed code into master branch.
