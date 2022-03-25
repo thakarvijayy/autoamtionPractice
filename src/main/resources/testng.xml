@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Automation Practice">
+
+	<listeners>  
+			pass fail skip tests -->
+		<listener
+			class-name="automationpractice.extentReportListener.ExtentReportListener" /> 
+	</listeners>
+	<test name="AutomationPractice">
+		<classes>
+			<class name="automationpractice.testcases.FirstPageTest" />
+			<class name="automationpractice.testcases.SignInPageTest" />
+		</classes>
+	</test>
+</suite> 
