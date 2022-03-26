@@ -1,25 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-25T14:51:16 GMT-04:00" name="Default suite" finished-at="2022-03-25T14:51:26 GMT-04:00" duration-ms="9980">
+  <suite started-at="2022-03-26T15:45:26 GMT-04:00" name="Automation Practice" finished-at="2022-03-26T15:50:14 GMT-04:00" duration-ms="287882">
     <groups>
     </groups>
-    <test started-at="2022-03-25T14:51:16 GMT-04:00" name="Default test" finished-at="2022-03-25T14:51:26 GMT-04:00" duration-ms="9980">
-      <class name="automationpractice.testcases.FirstPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.FirstPageTest@5f9b2141]" started-at="2022-03-25T14:51:16 GMT-04:00" name="setUp" finished-at="2022-03-25T14:51:25 GMT-04:00" duration-ms="8437" status="PASS">
+    <test started-at="2022-03-26T15:45:26 GMT-04:00" name="AutomationPractice" finished-at="2022-03-26T15:50:14 GMT-04:00" duration-ms="287882">
+      <class name="automationpractice.testcases.SignInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:39 GMT-04:00" name="setUp" finished-at="2022-03-26T15:45:44 GMT-04:00" duration-ms="5619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoCheckTest()[pri:0, instance:automationpractice.testcases.FirstPageTest@5f9b2141]" started-at="2022-03-25T14:51:25 GMT-04:00" name="logoCheckTest" finished-at="2022-03-25T14:51:25 GMT-04:00" duration-ms="233" status="PASS">
+        <test-method signature="signInPageTitleTest()[pri:1, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:44 GMT-04:00" name="signInPageTitleTest" finished-at="2022-03-26T15:45:46 GMT-04:00" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:46 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:45:47 GMT-04:00" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:47 GMT-04:00" name="setUp" finished-at="2022-03-26T15:45:53 GMT-04:00" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInPageHeaderTest()[pri:2, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:53 GMT-04:00" name="signInPageHeaderTest" finished-at="2022-03-26T15:45:55 GMT-04:00" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPageHeaderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:55 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:45:56 GMT-04:00" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:45:56 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:02 GMT-04:00" duration-ms="6497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validloginTest()[pri:3, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:02 GMT-04:00" name="validloginTest" finished-at="2022-03-26T15:46:06 GMT-04:00" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:06 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:46:07 GMT-04:00" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:07 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:14 GMT-04:00" duration-ms="7120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyUsernameWithValidPasswordloginTest()[pri:4, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:14 GMT-04:00" name="emptyUsernameWithValidPasswordloginTest" finished-at="2022-03-26T15:46:18 GMT-04:00" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameWithValidPasswordloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:18 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:46:18 GMT-04:00" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:18 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:27 GMT-04:00" duration-ms="8201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyUsernameWithInvalidPasswordloginTest()[pri:5, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:27 GMT-04:00" name="emptyUsernameWithInvalidPasswordloginTest" finished-at="2022-03-26T15:46:32 GMT-04:00" duration-ms="5244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameWithInvalidPasswordloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:32 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:46:33 GMT-04:00" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:33 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:39 GMT-04:00" duration-ms="5865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unregisteredUsernameWithValidPasswordLoginTest()[pri:6, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:39 GMT-04:00" name="unregisteredUsernameWithValidPasswordLoginTest" finished-at="2022-03-26T15:46:42 GMT-04:00" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unregisteredUsernameWithValidPasswordLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:42 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:46:43 GMT-04:00" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:43 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:48 GMT-04:00" duration-ms="5409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unregisteredUsernameWithUnregisteredPasswordLoginTest()[pri:7, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:48 GMT-04:00" name="unregisteredUsernameWithUnregisteredPasswordLoginTest" finished-at="2022-03-26T15:46:52 GMT-04:00" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unregisteredUsernameWithUnregisteredPasswordLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:52 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:46:53 GMT-04:00" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:53 GMT-04:00" name="setUp" finished-at="2022-03-26T15:46:59 GMT-04:00" duration-ms="6275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordWithValidUsernameloginTest()[pri:8, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:46:59 GMT-04:00" name="invalidPasswordWithValidUsernameloginTest" finished-at="2022-03-26T15:47:02 GMT-04:00" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordWithValidUsernameloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:02 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:03 GMT-04:00" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:03 GMT-04:00" name="setUp" finished-at="2022-03-26T15:47:09 GMT-04:00" duration-ms="5747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCredentialsloginTest()[pri:9, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:09 GMT-04:00" name="invalidCredentialsloginTest" finished-at="2022-03-26T15:47:14 GMT-04:00" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:14 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:15 GMT-04:00" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:15 GMT-04:00" name="setUp" finished-at="2022-03-26T15:47:21 GMT-04:00" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="stringAsUsernameWithValidPasswordTest()[pri:10, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:21 GMT-04:00" name="stringAsUsernameWithValidPasswordTest" finished-at="2022-03-26T15:47:27 GMT-04:00" duration-ms="5795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringAsUsernameWithValidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:27 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:28 GMT-04:00" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:28 GMT-04:00" name="setUp" finished-at="2022-03-26T15:47:33 GMT-04:00" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="stringAsUsernameWithEmptyPasswordTest()[pri:11, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:33 GMT-04:00" name="stringAsUsernameWithEmptyPasswordTest" finished-at="2022-03-26T15:47:36 GMT-04:00" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringAsUsernameWithEmptyPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:36 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:37 GMT-04:00" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:37 GMT-04:00" name="setUp" finished-at="2022-03-26T15:47:43 GMT-04:00" duration-ms="5155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="stringAsUsernameWithInvalidPasswordTest()[pri:12, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:43 GMT-04:00" name="stringAsUsernameWithInvalidPasswordTest" finished-at="2022-03-26T15:47:45 GMT-04:00" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringAsUsernameWithInvalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:45 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:46 GMT-04:00" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:46 GMT-04:00" name="setUp" finished-at="2022-03-26T15:47:52 GMT-04:00" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numberAsUsernameWithValidPassword()[pri:13, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:52 GMT-04:00" name="numberAsUsernameWithValidPassword" finished-at="2022-03-26T15:47:55 GMT-04:00" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberAsUsernameWithValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:55 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:47:56 GMT-04:00" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:47:56 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:02 GMT-04:00" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numberAsUsernameWithEmptyPassword()[pri:14, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:02 GMT-04:00" name="numberAsUsernameWithEmptyPassword" finished-at="2022-03-26T15:48:05 GMT-04:00" duration-ms="3311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberAsUsernameWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:05 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:06 GMT-04:00" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:06 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:12 GMT-04:00" duration-ms="5709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numberAsUsernameWithInvalidPassword()[pri:15, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:12 GMT-04:00" name="numberAsUsernameWithInvalidPassword" finished-at="2022-03-26T15:48:15 GMT-04:00" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberAsUsernameWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:15 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:17 GMT-04:00" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:17 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:23 GMT-04:00" duration-ms="5974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="specialCharAsUsernameWithValidPassword()[pri:16, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:23 GMT-04:00" name="specialCharAsUsernameWithValidPassword" finished-at="2022-03-26T15:48:26 GMT-04:00" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharAsUsernameWithValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:26 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:26 GMT-04:00" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:26 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:33 GMT-04:00" duration-ms="6255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="specialCharAsUsernameWithEmptyPassword()[pri:17, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:33 GMT-04:00" name="specialCharAsUsernameWithEmptyPassword" finished-at="2022-03-26T15:48:35 GMT-04:00" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharAsUsernameWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:35 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:36 GMT-04:00" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:36 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:43 GMT-04:00" duration-ms="6492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="specialCharAsUsernameWithInvalidPassword()[pri:18, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:43 GMT-04:00" name="specialCharAsUsernameWithInvalidPassword" finished-at="2022-03-26T15:48:46 GMT-04:00" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharAsUsernameWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:46 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:47 GMT-04:00" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:47 GMT-04:00" name="setUp" finished-at="2022-03-26T15:48:52 GMT-04:00" duration-ms="5593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="missingDotAsEmailWithValidPasswordTest()[pri:19, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:52 GMT-04:00" name="missingDotAsEmailWithValidPasswordTest" finished-at="2022-03-26T15:48:56 GMT-04:00" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingDotAsEmailWithValidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:56 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:48:58 GMT-04:00" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:48:58 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:03 GMT-04:00" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="missingDotAsEmailWithEmptyPasswordTest()[pri:20, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:03 GMT-04:00" name="missingDotAsEmailWithEmptyPasswordTest" finished-at="2022-03-26T15:49:07 GMT-04:00" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingDotAsEmailWithEmptyPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:07 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:49:08 GMT-04:00" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:08 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:14 GMT-04:00" duration-ms="6372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="missingDotAsEmailWithInvalidPasswordTest()[pri:21, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:14 GMT-04:00" name="missingDotAsEmailWithInvalidPasswordTest" finished-at="2022-03-26T15:49:18 GMT-04:00" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingDotAsEmailWithInvalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:18 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:49:19 GMT-04:00" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:19 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:24 GMT-04:00" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="twoAtSignInEmailWithValidPasswordTest()[pri:22, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:24 GMT-04:00" name="twoAtSignInEmailWithValidPasswordTest" finished-at="2022-03-26T15:49:26 GMT-04:00" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoAtSignInEmailWithValidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:26 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:49:27 GMT-04:00" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:27 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:33 GMT-04:00" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="twoAtSignInEmailAddressWithEmptyPassword()[pri:23, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:33 GMT-04:00" name="twoAtSignInEmailAddressWithEmptyPassword" finished-at="2022-03-26T15:49:37 GMT-04:00" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoAtSignInEmailAddressWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:37 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:49:38 GMT-04:00" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:38 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:43 GMT-04:00" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="twoAtSignInEmailAddressWithInvalidPassword()[pri:24, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:43 GMT-04:00" name="twoAtSignInEmailAddressWithInvalidPassword" finished-at="2022-03-26T15:49:47 GMT-04:00" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoAtSignInEmailAddressWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:47 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:49:49 GMT-04:00" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:49 GMT-04:00" name="setUp" finished-at="2022-03-26T15:49:57 GMT-04:00" duration-ms="7460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validForgotPasswordLinkFunction()[pri:25, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:49:57 GMT-04:00" name="validForgotPasswordLinkFunction" finished-at="2022-03-26T15:50:03 GMT-04:00" duration-ms="6847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validForgotPasswordLinkFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:50:03 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:50:04 GMT-04:00" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:50:04 GMT-04:00" name="setUp" finished-at="2022-03-26T15:50:10 GMT-04:00" duration-ms="5360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidForgotPasswordLinkFunction()[pri:26, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:50:10 GMT-04:00" name="invalidForgotPasswordLinkFunction" finished-at="2022-03-26T15:50:13 GMT-04:00" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidForgotPasswordLinkFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationpractice.testcases.SignInPageTest@759d26fb]" started-at="2022-03-26T15:50:13 GMT-04:00" name="tearDown" finished-at="2022-03-26T15:50:14 GMT-04:00" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationpractice.testcases.SignInPageTest -->
+      <class name="automationpractice.testcases.FirstPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationpractice.testcases.FirstPageTest@4bb33f74]" started-at="2022-03-26T15:45:26 GMT-04:00" name="setUp" finished-at="2022-03-26T15:45:37 GMT-04:00" duration-ms="10419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoCheckTest()[pri:0, instance:automationpractice.testcases.FirstPageTest@4bb33f74]" started-at="2022-03-26T15:45:37 GMT-04:00" name="logoCheckTest" finished-at="2022-03-26T15:45:37 GMT-04:00" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoCheckTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:automationpractice.testcases.FirstPageTest@5f9b2141]" started-at="2022-03-25T14:51:25 GMT-04:00" name="teardown" finished-at="2022-03-25T14:51:26 GMT-04:00" duration-ms="1258" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automationpractice.testcases.FirstPageTest@4bb33f74]" started-at="2022-03-26T15:45:37 GMT-04:00" name="teardown" finished-at="2022-03-26T15:45:39 GMT-04:00" duration-ms="1363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- automationpractice.testcases.FirstPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- AutomationPractice -->
+  </suite> <!-- Automation Practice -->
 </testng-results>

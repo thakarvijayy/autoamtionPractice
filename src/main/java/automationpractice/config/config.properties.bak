@@ -1,7 +1,6 @@
 url = http://automationpractice.com/index.php
 username = tvv@gmail.com
 emptyUsername = 
-unregisteredUsername = zxjfj@gmail.com
 stringAsUsername = testAtgmail.com
 numbersAsUsername = 15468418
 onlySpecialCharacterAsUsername = @$*^^$(&#^@gmail.com
@@ -9,5 +8,4 @@ missingDotAsUsername = test@gmailcom
 twoAtSignAsUsername = twst@gmail@.com
 password = tvv@gmail.com
 emptyPassword = 
-invalidPassword = hfobnasof@#fnjae*
 browser = Chrome

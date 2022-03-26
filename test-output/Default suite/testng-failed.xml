@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationpractice.testcases.FirstPageTest">
+      <class name="automationpractice.testcases.SignInPageTest">
         <methods>
-          <include name="logoCheckTest"/>
-          <include name="teardown"/>
+          <include name="numberAsUsernameWithEmptyPassword"/>
+          <include name="StringAsUsernameWithEmptyPasswordTest"/>
+          <include name="tearDown"/>
+          <include name="StringAsUsernameWithValidPasswordTest"/>
           <include name="setUp"/>
+          <include name="numberAsUsernameWithValidPassword"/>
         </methods>
-      </class> <!-- automationpractice.testcases.FirstPageTest -->
+      </class> <!-- automationpractice.testcases.SignInPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
